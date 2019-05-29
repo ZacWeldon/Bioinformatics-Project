@@ -66,4 +66,4 @@ for state in statecoords.keys():
 statesdf = pd.DataFrame(areas, columns=['ncord', 'wcord'], index=locs)
 geomatrix = pd.DataFrame(distance_matrix(statesdf.values, statesdf.values), index=statesdf.index, columns=statesdf.index)
 
-datadf = pd.read_csv('nextstrain_flu_seasonal_h1n1pdm_ha_3y_metadata.tsv', sep = '\t')
+datadf = pd.read_csv('nextstrain_flu_seasonal_h3n2_ha_3y_metadata.tsv', sep = '\t')
